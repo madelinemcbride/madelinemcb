@@ -1,0 +1,55 @@
+h2 {
+    color:cadetblue;
+    font-family: fantasy, corbel, arial, helvetica, sans-serif;
+    
+}
+
+pr {
+    color: gray;
+    font-size: 16px;
+    font-family: corbel;
+}
+
+h4 {
+    color: gray;
+    font-size: 16px;
+    font-family: monospace;
+    
+    
+}
+li {
+    background-color: aliceblue;
+    color:burlywood;
+    border: 2px solid purple;
+    
+}
+
+.firstparagraph {
+    color:darkseagreen;
+    font-size: 16;
+    font-style: italic;
+    font-weight: 800;
+    
+}
+
+.funky {
+    
+}
+
+.content{
+    background-color: #dde;
+    
+}
+
+.itasca{
+   width: 500px;
+    margin-right:auto; 
+    
+}
+
+body{
+    background-color:floralwhite;
+    
+}
+
+
