@@ -1,13 +1,44 @@
 h2 {
     color:cadetblue;
+    font-size: 35px;
     font-family: fantasy, corbel, arial, helvetica, sans-serif;
+    margin-left: 4px;
     
 }
 
-pr {
-    color: gray;
+.profile {
+    margin-top: 50px;
+    margin-left: 29px;
+    width:253px;
+    height: auto;
+    margin-right: 0px;
+    border: 2px dodgerblue solid;
+    border-radius: 7px;
+    padding: .25px
+
+    }
+
+#header {
+    margin-left: 10px;
+    height: auto;
+    width: 320px;
+    border: 2px orange solid;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+    padding: 3px
+    
+    
+}
+.aboutme {
+    
+    color:darkgrey;
     font-size: 16px;
     font-family: corbel;
+    margin-left: 15px;
+
+}
+  
 }
 
 h4 {
@@ -18,37 +49,72 @@ h4 {
     
 }
 li {
-    background-color: aliceblue;
     color:burlywood;
-    border: 2px solid purple;
+    border: 2px solid white;
     
 }
 
 .firstparagraph {
-    color:darkseagreen;
-    font-size: 16;
+    color: dodgerblue;
+    font-size: 30px;
     font-style: italic;
-    font-weight: 800;
-    
-}
-
-.funky {
+    font-weight: 700;
+    margin-left: 15px;
     
 }
 
 .content{
-    background-color: #dde;
+
+    width: 500px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    left: 500px;
     
 }
 
+ul{
+    width: 
+    margin:0px;
+    padding:0px
+        
+}
+    
 .itasca{
-   width: 500px;
-    margin-right:auto; 
+    width: 400px;
+    
+}
+
+.tea{
+    width: 600px
+}
+
+.richmond{
+    width: 400px;
+}
+
+.mini{
+    width:450px;
+}
+
+.infographic {
+    width: 450px;
+
+}
+
+.bikeroute {
+    width: 450px;
     
 }
 
 body{
     background-color:floralwhite;
+    width: 608px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
     
 }
 
