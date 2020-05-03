@@ -1,0 +1,244 @@
+body{
+    
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    max-width: 1900px;
+    
+}
+
+section{
+    padding: 0 50px;
+    background: url(justins.JPG);
+    height: 300vh;
+    align-items: center;
+    flex-direction: column-reverse;
+    max-width: 100%;
+    max-height: 1500px;
+  
+}
+
+.navBar{
+    text-align: center;
+    width: 95%;
+    overflow: hidden;
+    margin: 1px auto;
+    padding: .5px;
+}
+
+ .navBar h2{
+     margin: 20px 0px;
+     padding: 0;
+     font-size: 50px;
+     color: #F66B16;
+     font-family:monospace;
+}
+
+.navBar ul{
+    padding: 5px;
+    margin: 0 10;
+}
+
+.navBar ul li .button{
+    display:inline;
+    padding: 2px;
+    line-height: 36px;
+    box-sizing: border-box;
+    border: .5px solid white;
+    border-radius: 5px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    
+}
+.navBar ul li:hover{
+    opacity: 0.2
+
+}
+
+#contain{
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    max-width: 1200px;
+   
+
+}
+
+#col1{
+    margin: % 3% 0 0 ;
+    padding-right: 24px;
+    padding-left: 14px;
+    padding-top: px;
+    padding-bottom: 15px;
+    width: 25%;
+    max-height: 800px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#col1 .aboutme{
+    font-family: corbel;
+    color: #324034;
+    font-size: 19px;
+    padding: 1 1 px;
+    background: rgba(255,255,255,.2);
+    
+}
+
+#col2{
+    margin: 0 0 0 4% ;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 6px;
+    width: 65%;
+    max-height: 1000px;
+    display: inline-block;
+    align-content: center;
+    vertical-align: top; 
+    background: rgba(255,255,255,.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,.7);
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgba(255,255,255,.2);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #6595bf;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);    
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.2);
+}
+
+
+
+@media (max-width: 768px){
+    #col1, #col2{
+        display: inline-block;
+        margin: 5% auto;
+        width: 90%
+    }
+}
+
+h3{
+    font-family: corbel bold;
+    font-size: 27px;
+    color:#F66B16;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+
+.wrapper after{
+    content:'';
+    display:inline-block;
+    clear: both;
+    align-content: center;
+    
+}
+
+.tour{
+    float: 80%;
+    height: 350px;
+    margin: 0 0 0 16% ;
+    width: 550px;
+    padding: 1px;
+    
+}
+    
+.itasca{
+    float: 80%;
+    height: 500px;
+    width: 400px;
+    margin: 0 0 0 24% ;
+    padding: 1px;
+}
+
+.tea{
+    float: 80%;
+    height: 400px;
+    width: 500px;
+    margin: 0 0 0 16%;
+    padding: 1px;
+
+}
+
+.rva{
+    float: 80%;
+    height: 500px;
+    width: 400px;
+    margin: 0 0 0 24% ;
+    padding: 1px;
+
+}
+
+.info{
+    float: 80%;
+    height: 400px;
+    width: 400px;
+    margin: 0 0 0 24% ;
+    padding: 1px;
+
+}
+
+.picturegrid{
+    display: inline-grid;
+    float: center;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    justify-items: left;
+    grid-gap: 1px;
+    grid-row-gap: 0px;
+    
+}
+
+.profile{
+    width: 250px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,.9);
+    
+}
+
+.tunes{
+    width: 150px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,.9);
+}
+
+@media (max-width: 768px){
+    #col1, #col2{
+        display: inline-block;
+        margin: 5% auto;
+        width: 100%
+    }
+}
+
+@media (max-width: 768px){
+    section{
+    background: url(justins.JPG);
+    height: 300vh;
+    }
+}

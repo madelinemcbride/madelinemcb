@@ -1,0 +1,36 @@
+*{
+    background: black;
+}
+
+.tour{
+   width: 80%;
+    margin: 1px auto;
+    display: block;
+    
+    
+}
+    
+.info{
+      width: 80%;
+    margin: 1px auto;
+    display: block;
+}
+
+.itasca{
+    width: 80%;
+    margin: 1px auto;
+    display: block;
+}
+ 
+.rva{
+    width: 80%;
+    margin: 1px auto;
+    display: block;
+}
+
+.tea{
+     width: 80%;
+    padding-left: 20 ;
+    margin: 1px auto;
+    display: block;
+}
